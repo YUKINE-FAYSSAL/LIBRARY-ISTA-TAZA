@@ -1,0 +1,102 @@
+/* src/pages/Profile/Profile.css */
+.profile-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-page h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-view .profile-field {
+    margin-bottom: 20px;
+  }
+  
+  .profile-view .profile-field label {
+    display: block;
+    font-weight: 500;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .profile-view .profile-field p {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .edit-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .profile-edit .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .profile-edit .form-group label {
+    display: block;
+    font-weight: 500;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .profile-edit .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cancel-button {
+    padding: 10px 20px;
+    background-color: #95a5a6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #7f8c8d;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #27ae60;
+  }

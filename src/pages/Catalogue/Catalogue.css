@@ -1,0 +1,11 @@
+.catalogue-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.catalogue-page h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
